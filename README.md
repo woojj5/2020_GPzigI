@@ -6,7 +6,7 @@
 
 ![image](https://user-images.githubusercontent.com/54899906/121851316-ecca5100-cd28-11eb-89a1-9d062eae09d5.png)
 
-![ㅋㅌㅊㅋㅌㅊㅋㅌㅊㅋㅌㅊ](https://github.com/user-attachments/assets/bb117d02-032d-4cb5-88be-978fee4e855f)
+![ㅋㅌㅊㅋㅌㅊㅋㅌㅊㅋㅌㅊ](https://github.com/user-attachments/assets/e8972f53-7bc8-4bf0-af3c-0cded6e08249)
 
 ## 구성파일 설명
 
