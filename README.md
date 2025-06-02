@@ -91,6 +91,3 @@
 
 6. **서비스 자동화**
    - systemd 또는 supervisor로 서비스 등록 및 자동 실행 설정
-
-7. **SSL 적용(선택)**
-   - Let’s Encrypt 등으로 HTTPS 적용 가능
