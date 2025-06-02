@@ -67,8 +67,8 @@
 
 ## 참고 이미지
 
-![ㅋㅌㅊㅋㅌㅊㅋㅌㅊㅋㅌㅊ](https://github.com/user-attachments/assets/e8972f53-7bc8-4bf0-af3c-0cded6e08249)
 ![image](https://user-images.githubusercontent.com/54899906/121851316-ecca5100-cd28-11eb-89a1-9d062eae09d5.png)
+![ㅋㅌㅊㅋㅌㅊㅋㅌㅊㅋㅌㅊ](https://github.com/user-attachments/assets/e8972f53-7bc8-4bf0-af3c-0cded6e08249)
 
 ## 배포 방식 상세
 
