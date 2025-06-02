@@ -5,6 +5,7 @@
 ![PyTorch](https://img.shields.io/badge/pytorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![SQL](https://img.shields.io/badge/sql-003B57?style=for-the-badge&logo=sql&logoColor=white)
 ![Selenium](https://img.shields.io/badge/selenium-150458?style=for-the-badge&logo=selenium&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ---
 
 **2020.06 작품 - 전진우, 신찬엽**
