@@ -45,4 +45,42 @@
 
 ![ㅋㅌㅊㅋㅌㅊㅋㅌㅊㅋㅌㅊ](https://github.com/user-attachments/assets/e8972f53-7bc8-4bf0-af3c-0cded6e08249)
 
-※ 두 번째 이미지는 정상적으로 불러와지지 않을 수 있습니다.
+## 배포 방식 상세
+
+1. **AWS EC2 인스턴스 생성**
+   - Ubuntu 운영체제 선택
+   - 필요한 포트(80, 443 등) 개방 및 보안 그룹 설정
+
+2. **프로젝트 코드 업로드**
+   - Git 또는 SCP를 통해 서버에 코드 배포
+
+3. **Python 및 라이브러리 설치**
+   - `python3`, `pip`, `virtualenv` 등 설치
+   - 프로젝트 의존성 패키지 설치
+
+4. **Nginx 설치 및 설정**
+   - Nginx 설치: `sudo apt-get install nginx`
+   - `/etc/nginx/sites-available` 및 `/etc/nginx/sites-enabled`에 서버 블록 설정
+   - 예시:
+     ```
+     server {
+         listen 80;
+         server_name your-domain.com;
+
+         location / {
+             proxy_pass http://127.0.0.1:8000;
+             proxy_set_header Host $host;
+             proxy_set_header X-Real-IP $remote_addr;
+         }
+     }
+     ```
+
+5. **Flask 앱 실행**
+   - Gunicorn 또는 uWSGI를 사용해 Flask 앱 실행
+   - 예시: `gunicorn -w 4 -b 127.0.0.1:8000 app:app`
+
+6. **서비스 자동화**
+   - systemd 또는 supervisor로 서비스 등록 및 자동 실행 설정
+
+7. **SSL 적용(선택)**
+   - Let’s Encrypt 등으로 HTTPS 적용 가능
